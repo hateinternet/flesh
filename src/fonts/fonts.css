@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Druk';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('./Druk-Normal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Druk';
+  font-weight: bold;
+  font-style: normal;
+
+  src: url('./Druk-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Didot';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('./Didot.ttf') format('truetype');
+}

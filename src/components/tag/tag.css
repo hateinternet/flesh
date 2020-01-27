@@ -1,0 +1,21 @@
+.tag {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.tag__link {
+  color: rgb(194, 24, 7);
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+.tag__link:hover {
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .tag {
+    font-size: 7px;
+  }
+}

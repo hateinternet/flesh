@@ -9,126 +9,154 @@ export default class Cities extends React.Component {
       date: "13.03",
       link: "https://vk.com/flesh_vl",
       tickets: "https://sike-events.timepad.ru/event/1243438/",
+      ticketTarget: "_blank",
     },
     {
       city: "KHABAROVSK",
       date: "14.03",
       link: "https://vk.com/flesh_khv",
       tickets: "https://sike-events.timepad.ru/event/1243441/",
+      ticketTarget: "_blank",
     },
     {
       city: "BLAGOVESHENSK",
       date: "15.03",
       link: "https://vk.com/flesh_blg",
       tickets: "https://sike-events.timepad.ru/event/1243440/",
+      ticketTarget: "_blank",
+    },
+    {
+      city: "PETROZAVODSK",
+      date: "20.03",
+      link: "https://vk.com/flesh_ptz",
+      tickets: '#qtickets:event_id=13152&window_width=960&window_height=645&base_color=ffcc00',
+      ticketTarget: "_self",
     },
     {
       city: "SMOLENSK",
       date: "25.03",
       link: "https://vk.com/event190505881",
-      tickets: "https://bryansk.qtickets.events/12504-flesh-smolensk-25-marta",
+      tickets: "#qtickets:event_id=12504&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "OREL",
       date: "26.03",
       link: "https://vk.com/event190506729",
-      tickets: "https://bryansk.qtickets.events/12505-flesh-orel-26-marta",
+      tickets: "#qtickets:event_id=12505&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "BRYANSK",
       date: "27.03",
       link: "https://vk.com/event190507256",
-      tickets: "https://bryansk.qtickets.events/12506-flesh-bryansk-27-marta",
+      tickets: "#qtickets:event_id=12506&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "VORONEZH",
       date: "28.03",
       link: "https://vk.com/event190507793",
-      tickets: "https://bryansk.qtickets.events/12507-flesh-voronezh-28-marta",
+      tickets: "#qtickets:event_id=12507&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "BELGOROD",
       date: "29.03",
       link: "https://vk.com/event190508441",
-      tickets: "https://bryansk.qtickets.events/12594-flesh-belgorod-29-marta",
+      tickets: "#qtickets:event_id=12594&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "SOCHI",
       date: "01.04",
       link: "https://vk.com/fleshsochii",
-      tickets: "https://sochi.qtickets.events/12597-flesh-sochi-1-aprelya-at-mr-jager",
+      tickets: "#qtickets:event_id=12597&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "NOVOROSSIYSK",
       date: "02.04",
       link: "https://vk.com/fleshnvrsk ",
-      tickets: "https://novorossijsk.qtickets.events/12595-flesh-novorossiysk-2-aprelya-at-orange-club",
+      tickets: "#qtickets:event_id=12595&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "ROSTOV-ON-DON",
       date: "03.04",
       link: "https://vk.com/rndflesh",
-      tickets: "https://vk.com/app5898182_-190619847#s=620294",
+      tickets: "#qtickets:event_id=12566&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "KRASNODAR",
       date: "04.04",
       link: "https://vk.com/krdflesh",
-      tickets: "https://vk.com/app5898182_-190619270#s=625539",
+      tickets: "#qtickets:event_id=12567&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "EKATERINBURG",
       date: "05.04",
-      link: null,
+      link: 'https://vk.com/newwavevol1',
       tickets: null,
+      ticketTarget: "_blank",
     },
     {
       city: "SYKTYVKAR",
       date: "09.04",
       link: "https://vk.com/fleshskt",
       tickets: "https://artembilet.ru/events/293",
+      ticketTarget: "_blank",
     },
     {
       city: "KRASNOYARSK",
       date: "25.04",
       link: "https://vk.com/flesh_kry",
-      tickets: "https://krasnoyarsk.qtickets.events/11224-flesh-2902-krasnoyarsk-at-circus",
+      tickets: "#qtickets:event_id=11224&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "TOMSK",
       date: "26.04",
       link: "https://vk.com/flesh_tsk",
-      tickets: "https://tomsk.qtickets.events/11223-flesh-2802-tomsk-at-rayon",
+      tickets: "#qtickets:event_id=11223&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "NOVOSIBIRSK",
       date: "30.04",
       link: "https://vk.com/flesh__nsk",
-      tickets: "https://novosibirsk.qtickets.events/11219-flesh-2302-novosibirsk-at-podzemka",
+      tickets: "#qtickets:event_id=11219&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "OMSK",
       date: "01.05",
       link: "https://vk.com/flesh_omsk",
-      tickets: "https://omsk.qtickets.events/11218-flesh-2202-omsk-at-pushkin-pubclub",
+      tickets: "#qtickets:event_id=11218&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "BARNAUL",
       date: "02.05",
       link: "https://vk.com/flesh_brn",
-      tickets: "https://barnaul.qtickets.events/11221-flesh-2502-barnaul-at-cocobongo-club",
+      tickets: "#qtickets:event_id=11221&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "KEMEROVO",
       date: "03.05",
       link: "https://vk.com/flesh_kem",
-      tickets: "https://kemerovo.qtickets.events/11222-flesh-2602-kemerovo-at-zavod",
+      tickets: "#qtickets:event_id=11222&window_width=960&window_height=645&base_color=ffcc00",
+      ticketTarget: "_self",
     },
     {
       city: "MOSCOW",
       date: "15.05",
       link: "https://vk.com/fleshmsk1930",
-      tickets: null,
+      tickets: "https://clck.ru/MF24Z",
+      ticketTarget: "_blank",
     },
   ];
 
@@ -145,13 +173,13 @@ export default class Cities extends React.Component {
     }
   };
 
-  renderLink = (link, icon) => {
+  renderLink = (link, icon, target = '_blank') => {
     if (!link) {
       return null;
     }
 
     return (
-      <a className="cities__link" href={link} target="_blank" rel="noopener noreferrer">
+      <a className="cities__link" href={link} target={target}>
         <Icon name={icon} />
       </a>
     );
@@ -161,10 +189,10 @@ export default class Cities extends React.Component {
     const { activeCity } = this.state;
 
     return this.cities.map(item => {
-      const { city, date, link, tickets } = item;
+      const { city, date, link, tickets, ticketTarget } = item;
       const cls = city === activeCity ? "cities__item cities__item--active" : "cities__item";
       const meetingLink = this.renderLink(link, 'vk');
-      const ticketsLink = this.renderLink(tickets, 'ticket2');
+      const ticketsLink = this.renderLink(tickets, 'ticket2', ticketTarget);
       const linksDefault = <div className="cities__no-links">Информация скоро!</div>;
 
       return (

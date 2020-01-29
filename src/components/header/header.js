@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__nickname">Flesh</div>
-      <div className="header__title">Cosmopolitour</div>
+      <div className="header__title" data-text="COSMOPOLITOUR">Cosmopolitour</div>
     </div>
   );
 };

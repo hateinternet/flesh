@@ -23,6 +23,10 @@
   transition: all 150ms;
 }
 
+.cities__item--major {
+  color: rgb(194, 24, 7);
+}
+
 .cities__date {
   position: absolute;
   top: 50%;

@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 import Icon from '../icon';
 import './cities.css';
 
@@ -10,6 +11,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_ptz",
       tickets: '#qtickets:event_id=13152&window_width=960&window_height=645&base_color=ffcc00',
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "SMOLENSK",
@@ -17,6 +19,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/event190505881",
       tickets: "#qtickets:event_id=12504&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "OREL",
@@ -24,6 +27,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/event190506729",
       tickets: "#qtickets:event_id=12505&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "BRYANSK",
@@ -31,6 +35,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/event190507256",
       tickets: "#qtickets:event_id=12506&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "VORONEZH",
@@ -38,6 +43,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/event190507793",
       tickets: "#qtickets:event_id=12507&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "BELGOROD",
@@ -45,6 +51,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/event190508441",
       tickets: "#qtickets:event_id=12594&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "SOCHI",
@@ -52,6 +59,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/fleshsochii",
       tickets: "#qtickets:event_id=12597&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "NOVOROSSIYSK",
@@ -59,6 +67,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/fleshnvrsk ",
       tickets: "#qtickets:event_id=12595&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "ROSTOV-ON-DON",
@@ -66,6 +75,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/rndflesh",
       tickets: "#qtickets:event_id=12566&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "KRASNODAR",
@@ -73,13 +83,15 @@ export default class Cities extends React.Component {
       link: "https://vk.com/krdflesh",
       tickets: "#qtickets:event_id=12567&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "EKATERINBURG",
       date: "05.04",
       link: 'https://vk.com/newwavevol1',
-      tickets: null,
+      tickets: "https://svoboda-kontsert-holl.timepad.ru/event/1277187/",
       ticketTarget: "_blank",
+      major: true,
     },
     {
       city: "SYKTYVKAR",
@@ -87,6 +99,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/fleshskt",
       tickets: "https://artembilet.ru/events/293",
       ticketTarget: "_blank",
+      major: false,
     },
     {
       city: "KRASNOYARSK",
@@ -94,6 +107,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_kry",
       tickets: "#qtickets:event_id=11224&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "TOMSK",
@@ -101,6 +115,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_tsk",
       tickets: "#qtickets:event_id=11223&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "NOVOSIBIRSK",
@@ -108,6 +123,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh__nsk",
       tickets: "#qtickets:event_id=11219&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "OMSK",
@@ -115,6 +131,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_omsk",
       tickets: "#qtickets:event_id=11218&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "BARNAUL",
@@ -122,6 +139,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_brn",
       tickets: "#qtickets:event_id=11221&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "KEMEROVO",
@@ -129,6 +147,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_kem",
       tickets: "#qtickets:event_id=11222&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+      major: false,
     },
     {
       city: "BLAGOVESHENSK",
@@ -136,6 +155,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_blg",
       tickets: "https://sike-events.timepad.ru/event/1243440/",
       ticketTarget: "_blank",
+      major: false,
     },
     {
       city: "KHABAROVSK",
@@ -143,6 +163,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_khv",
       tickets: "https://sike-events.timepad.ru/event/1243441/",
       ticketTarget: "_blank",
+      major: false,
     },
     {
       city: "VLADIVOSTOK",
@@ -150,6 +171,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_vl",
       tickets: "https://sike-events.timepad.ru/event/1243438/",
       ticketTarget: "_blank",
+      major: false,
     },
     {
       city: "MOSCOW",
@@ -157,6 +179,7 @@ export default class Cities extends React.Component {
       link: "https://vk.com/fleshmsk1930",
       tickets: "https://clck.ru/MF24Z",
       ticketTarget: "_blank",
+      major: true,
     },
   ];
 
@@ -189,8 +212,13 @@ export default class Cities extends React.Component {
     const { activeCity } = this.state;
 
     return this.cities.map(item => {
-      const { city, date, link, tickets, ticketTarget } = item;
-      const cls = city === activeCity ? "cities__item cities__item--active" : "cities__item";
+      const { city, date, link, tickets, ticketTarget, major } = item;
+      const cls = cn({
+        'cities__item': true,
+        'cities__item--active': city === activeCity,
+        'cities__item--major': major,
+      });
+      // const cls = city === activeCity ? "cities__item cities__item--active" : "cities__item";
       const meetingLink = this.renderLink(link, 'vk');
       const ticketsLink = this.renderLink(tickets, 'ticket2', ticketTarget);
       const linksDefault = <div className="cities__no-links">Информация скоро!</div>;

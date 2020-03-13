@@ -5,27 +5,6 @@ import './cities.css';
 export default class Cities extends React.Component {
   cities = [
     {
-      city: "VLADIVOSTOK",
-      date: "13.03",
-      link: "https://vk.com/flesh_vl",
-      tickets: "https://sike-events.timepad.ru/event/1243438/",
-      ticketTarget: "_blank",
-    },
-    {
-      city: "KHABAROVSK",
-      date: "14.03",
-      link: "https://vk.com/flesh_khv",
-      tickets: "https://sike-events.timepad.ru/event/1243441/",
-      ticketTarget: "_blank",
-    },
-    {
-      city: "BLAGOVESHENSK",
-      date: "15.03",
-      link: "https://vk.com/flesh_blg",
-      tickets: "https://sike-events.timepad.ru/event/1243440/",
-      ticketTarget: "_blank",
-    },
-    {
       city: "PETROZAVODSK",
       date: "20.03",
       link: "https://vk.com/flesh_ptz",
@@ -150,6 +129,27 @@ export default class Cities extends React.Component {
       link: "https://vk.com/flesh_kem",
       tickets: "#qtickets:event_id=11222&window_width=960&window_height=645&base_color=ffcc00",
       ticketTarget: "_self",
+    },
+    {
+      city: "BLAGOVESHENSK",
+      date: "06.05",
+      link: "https://vk.com/flesh_blg",
+      tickets: "https://sike-events.timepad.ru/event/1243440/",
+      ticketTarget: "_blank",
+    },
+    {
+      city: "KHABAROVSK",
+      date: "08.05",
+      link: "https://vk.com/flesh_khv",
+      tickets: "https://sike-events.timepad.ru/event/1243441/",
+      ticketTarget: "_blank",
+    },
+    {
+      city: "VLADIVOSTOK",
+      date: "10.05",
+      link: "https://vk.com/flesh_vl",
+      tickets: "https://sike-events.timepad.ru/event/1243438/",
+      ticketTarget: "_blank",
     },
     {
       city: "MOSCOW",
